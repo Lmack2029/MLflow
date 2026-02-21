@@ -88,17 +88,18 @@ st.dataframe(df_f.head(50))
 
 # plt.savefig("feature_importance.png")
 
-with mlflow.start_run():
-    fig, ax = plt.subplots()
-    ax.hist(df["mag"], bins=30)
-    ax.set_title("Magnitude Distribution")
-    ax.set_xlabel("Magnitude")
-    ax.set_ylabel("Frequency")
+# with mlflow.start_run():
+    # fig, ax = plt.subplots()
+    # ax.hist(df["mag"], bins=30)
+    # ax.set_title("Magnitude Distribution")
+    # ax.set_xlabel("Magnitude")
+    # ax.set_ylabel("Frequency")
 
-    fig.savefig("mag_dist.png")
-    mlflow.log_artifact(fig, "mag_dist.png")
+    # fig.savefig("mag_dist.png")
+    # mlflow.log_artifact(fig, "mag_dist.png")
 
-    plt.close(fig)
+    # plt.close(fig)
+
 
 
 
