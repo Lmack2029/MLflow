@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2023-02-07T19:21:12.515579
+description,Description,
+format,File Format,CSV
+download_url,Download URL,https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.csv
+id,Resource ID,80dd31c5-2a28-4981-be54-d0014845d4b8
+last_modified,Updated,2026-02-21T09:00:08
+metadata_modified,Metadata Updated,2026-02-21T09:01:37.960623
+microdata,Microdata,False
+dataset_id,Dataset ID,310f5bd8-0727-441e-9fc9-bb4505d6a19c
+resource_type,Resource Type,api
+name,Resource Name,"USGS Magnitude 2.5+ Earthquakes, Past Day (csv)"
+mimetype,MIME Type,
+size,Size,7.6K
